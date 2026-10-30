@@ -1,8 +1,8 @@
 🌐 [官网 VetarAI.com](https://vetarai.com) ｜ ⬇️ [下载 Download](https://github.com/zero11924065-dev/VetarModel/releases/latest/download/VetarModel-0.8.15.dmg) ｜ [联系 Contact](#-联系我--反馈)
 
-> **测试阶段 / Testing stage：** VetarModel 仍处于测试阶段，功能、性能与兼容性可能随版本变化，欢迎试用与反馈。公开测试数据及局限见 [测试数据](#测试数据--test-data)。
+> **测试阶段 / Testing stage：** VetarModel 仍处于测试阶段，功能、性能与兼容性可能随版本变化，欢迎试用与反馈。公开测试数据及局限见 [测试数据](#user-content-测试数据--test-data)。
 >
-> VetarModel is still in testing. Features, performance and compatibility may change between versions; feedback is welcome. See [Test Data](#测试数据--test-data) for published results and limitations.
+> VetarModel is still in testing. Features, performance and compatibility may change between versions; feedback is welcome. See [Test Data](#user-content-测试数据--test-data) for published results and limitations.
 
 # VetarModel — 本地模型训练 × 模型养成 × 会话验证
 
@@ -234,13 +234,13 @@ The installer is available through this repository's Releases.
 
 本仓库为 VetarModel 的开源子集快照（GPL-3.0），公开 17 个 Swift 文件，覆盖界面基础组件、显式导航、会话文本处理、探索工具、训练界面辅助、设备状态抽象和通用工具。不包含训练与推理执行、模型包导出、检索、账号授权、更新、运行时或密钥实现，也不包含模型、原始语料、私有构建配置与私有依赖。公开树用于展示部分架构与通用实现，**不能独立构建为 VetarModel 应用**。
 
-各文件的职责、分层关系与公开数据流见 [架构节选](docs/ARCHITECTURE.md)。选择性公开的研发数据、对照结果和实验局限见 [测试数据](#测试数据--test-data)。
+各文件的职责、分层关系与公开数据流见 [架构节选](docs/ARCHITECTURE.md)。选择性公开的研发数据、对照结果和实验局限见 [测试数据](#user-content-测试数据--test-data)。
 
 ## 📖 Source Notes
 
 This repository is an open-source subset snapshot of VetarModel (GPL-3.0), containing 17 Swift files across UI foundations, explicit navigation, chat text processing, exploration utilities, training-UI support, device-state abstraction, and general utilities. It excludes training and inference execution, model-package export, retrieval, account licensing, updates, runtime and key implementations, as well as models, raw corpora, private build configuration and private dependencies. The public tree presents selected architecture and reusable implementations; it **cannot be built into the complete VetarModel app**.
 
-See the [Architecture Excerpt](docs/ARCHITECTURE.md) for file responsibilities, layering and public data flows. See [Test Data](#测试数据--test-data) for selected research results, comparisons and experimental limitations.
+See the [Architecture Excerpt](docs/ARCHITECTURE.md) for file responsibilities, layering and public data flows. See [Test Data](#user-content-测试数据--test-data) for selected research results, comparisons and experimental limitations.
 
 ## 🗂 目录结构 / Directory Structure
 
