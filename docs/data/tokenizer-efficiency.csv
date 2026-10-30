@@ -1,0 +1,6 @@
+experiment_date,metric,qwen3_151669,vetarmodel_48k_zh80_research,unit,relative_change_percent,higher_is_better
+2026-10-06,chinese_wikipedia,1.3569,1.7701,characters_per_token,30.45,true
+2026-10-06,english_wikipedia,4.0081,3.6787,characters_per_token,-8.22,true
+2026-10-06,user_note_sample,1.3583,1.2431,characters_per_token,-8.48,true
+2026-10-06,structured_csv_json,1.4309,1.7437,characters_per_token,21.86,true
+2026-10-06,estimated_chinese_capacity_32k_window,44462,58002,characters,30.45,true
